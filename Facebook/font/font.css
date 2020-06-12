@@ -1,0 +1,15 @@
+
+
+@font-face {
+    font-family: 'Robotobold';
+    src: url('Robotobold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Robotolight';
+    src: url('Robotolight.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 200;
+}
