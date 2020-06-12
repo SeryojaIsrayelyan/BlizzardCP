@@ -1,0 +1,32 @@
+@media screen and (max-width: 767px) {
+     .col-12{
+         text-align: center;
+         padding: 0 7px;
+         justify-content: center;
+         align-items: center;
+
+     }
+
+
+}
+@media screen and (max-width: 571px) {
+    .col-sm-6{
+       text-align: center;
+    }
+    .shopnofirstpart h3 {
+        font-size: 24px;
+    }
+    .about {
+        padding: 25px 0;
+    }
+    .p-0 {
+        padding: 0 8px;
+    }
+    .for-photo{
+        height: auto;
+    }
+    .col-12{
+        padding: 0 7px;
+    }
+}
+

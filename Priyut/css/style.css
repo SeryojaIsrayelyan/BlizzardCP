@@ -1,0 +1,458 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.cont {
+	max-width: 1170px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.contfordog{
+	max-width: 1170px;
+	width: 100%;
+	height : 500px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	display:flex;
+	justify-content: center;
+	align-items : center;
+}
+.contflex {
+	max-width: 1170px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	display : flex;
+}
+.headermainpart{
+	max-width : 1170px;
+	display : flex;
+	align-items : center;
+	justify-content: space-around;
+
+}
+header {
+	width: 100%;
+	height: 927px;
+	background-image: url(../images/Dog.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.header-cont {
+	width: 100%;
+	min-height: 150px;
+	padding-top: 55px;
+	
+}
+
+.logo a{
+	text-decoration: none;
+	
+}
+.logo a p {    
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  margin-top : -20px;
+
+
+}
+
+.logo a h3 {
+  font-size: 30px;
+  color: rgb(241, 205, 179);
+}
+
+.logo {
+	min-width : 300px;
+}
+
+.menu ul li{
+	width : 150px;
+}
+.menu ul a{
+	text-decoration: none;
+	color: rgb(205, 205, 205);
+	font-size: 15px;
+  
+
+}
+.menu ul{
+	display: flex;
+}
+.menu ul li {
+ list-style: none;
+
+}
+.menu ul a:hover {
+	color: white;
+	border-bottom: 3px solid #e8c1a5;
+	padding-bottom: 5px
+}
+.cont2 {
+	width: 470px;
+	min-height: 350px;
+	margin-top: 25%;
+}
+.ver  {
+  font-size: 44px;
+  color: rgb(255, 255, 255);
+
+}
+.ver2 {
+  font-size: 15px;
+  color: rgb(205, 205, 205);
+  line-height: 30px;
+ 
+}
+.makeafriend {
+	margin-top: 54px;
+	background-color: white;
+	border : 2px solid #e8c1a5;
+	border-radius: 55px;
+	width: 207px;
+	height: 52px;
+	display : flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.makeafriend:hover{
+	background-color: #e8c1a5;
+}
+.makeafriend a{
+  text-decoration : none;
+  font-size: 17px;
+  color: rgb(41, 41, 41);
+
+
+}
+.main1 {
+	width: 100%;
+	min-height: 582px;
+
+
+}
+.dog2 {
+	width: 100%;
+	height: auto;
+	display : flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.dog2 img{
+	height : 50%;
+}
+
+.titleash  {
+  font-size: 35px;
+  color: rgb(84, 84, 84);
+
+}
+.descriptionash2  {
+  font-size: 15px;
+  color: rgb(76, 76, 76);
+  line-height: 1.6;
+  
+}
+.Aboutshelter {
+	height: auto;
+	width: 415px;
+}
+.main2 {
+	min-height:  889px;
+	width: 100%;
+	background-color: #e8e8e8;
+	
+}	
+
+.title3  {
+  font-size: 35px;
+  color: rgb(84, 84, 84);
+  text-align: center;
+  padding-top: 83px
+  
+}
+.imgn {
+	display: flex;
+	margin: 0;
+	justify-content: center;
+	align-items : center;
+
+}
+.lookingforhouse {
+	height: 420px;
+	width: 278px;
+	border-radius: 10px;
+	background-color: #fafafa;
+	margin: 20px;
+	margin-top: 65px;
+	display:flex;
+
+	flex-direction: column;
+
+
+}
+
+
+.anun {
+  font-size: 20px;
+  color: rgb(84, 84, 84);
+  text-align: center;
+  line-height: 1
+}
+.button {
+	border-radius: 60px;
+	height: 52px;
+	border: 1px solid #e8c1a5;
+	background-color : white;
+	width: 200px;
+	margin-left: 40px;
+	margin-top: 10px;
+	  font-size: 16px;
+
+		display : flex;
+	justify-content : center;
+	align-items : center;
+}
+
+.button a, .min a{
+	 text-decoration : none;
+	  color: black;
+}
+
+.min {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	border: 1px solid #e8c1a5;
+	background-color: white;
+	margin-right: 20px;
+	text-decoration : none;
+	color : black;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+
+}
+.min:checked{
+	border : none;
+}
+.bigbutton {
+	width: 100%;
+	height: auto;
+	display : flex;
+	justify-content: center;
+}
+
+.bigbutton div {
+	width: 265px;
+	height: 50px;
+	background-color: white;
+	border: 1px solid #e8c1a5;
+	border-radius: 60px;
+	margin-top: 70px;
+	display : flex;
+	align-items: center;
+	justify-content: center;
+	  font-size: 16px;
+}
+.bigbutton div a{
+	text-decoration : none;
+	color : black;
+}
+.bigbutton div:hover{
+	background-color : #e8c1a5;
+}
+.button:hover, .min:hover {
+	background-color:  #e8c1a5;
+}
+.main5 {
+	min-height: 600px;
+	width: 100%;
+	
+
+
+}
+.main6 {
+	width: 100%;
+	height: auto;
+
+}
+.texting  {
+  font-size: 35px;
+  color: rgb(84, 84, 84);
+ text-align: center;
+ padding-top: 79px
+}
+.nkarner,.nkarner6 {
+	height: auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+
+
+	
+}
+.nkarner img  {
+	margin: 70px
+}
+.nkarner p {
+	margin: 70px;
+	margin-top: -60px
+    
+}
+.pet {
+	
+  font-size: 20px;
+  color: rgb(84, 84, 84);
+
+}
+.nkarner6 img {
+	margin: 70px;
+}
+.nkarner6 p {
+	margin-top: -60px;
+	margin-left: 40px
+
+}
+.nkarner6 {
+	margin-top: -90px
+}
+.main9{
+	width: 100%;
+	min-height: 450px;
+	background-color: #f6f6f6;
+
+}
+.shun4 {
+
+	margin-right : 10px;
+	min-height: 440px;
+
+
+}
+.donate{
+	display : flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.donationdiv{
+  font-size: 33px;
+  color: gray;
+  display : flex;
+  flex-direction: column;
+  
+}
+.BankName {
+  font-size: 15px;
+
+
+}
+.Bankorinak {
+width : 300px;
+height : auto;
+
+}
+.Informationdonat {
+
+  font-size: 12px;
+  color: rgb(178, 178, 178);
+  font-style: italic;
+
+}
+footer {
+	width: 100%;
+	height: 370px;
+	background-image: url(../images/doge.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.footerfirstpart{
+
+  font-size: 33px;
+  color: white;
+  margin-top : 50px;
+ display : flex;
+ flex-direction : column;
+
+
+
+}
+.infofooter1{
+	width : 300px;
+	height : 30px;
+	display:block;
+}
+.infofooter2{
+		width : 300px;
+	height : 30px;
+	margin-top : 20px;
+}
+.footersecondpart{
+  font-size: 35px;
+  color: white;
+  margin-top : 50px;
+  margin-left : 40px;
+}
+.infofooter3 {
+		width : 300px;
+	height : 30px;
+display : block;
+}
+.infofooter4 {
+		width : 300px;
+	height : 30px;
+	margin-top : 10px;
+}
+
+.someimageidk{
+width : 300px;
+height : 300px;
+text-align : center;
+}
+
+.someimageidk div {
+	display : flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sa{
+	margin-left : 50px;
+}
+
+.cl{
+	margin-left : 30px;
+}
+
+.md, .vt{
+	margin-left: 40px;
+}
+
+
+
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #e8c1a5; 
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #e8c1a5; 
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>X-O</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<div class="tablica1" id="count">
+			<h1>1st [ </h1>
+			<h1 id="firstcount"></h1>
+			<h1> : </h1>
+			<h1 id="secondcount"></h1>
+			<h1> ] 2nd</h1>
+		</div>
+	<div class="main">
+		<div class="t">
+		<div class="v" id="v1" onclick="putsymbol('v1', 0)"></div>
+		<div class="v" id="v2" onclick="putsymbol('v2', 1)"></div>
+		<div class="v" id="v3" onclick="putsymbol('v3', 2)"></div>
+		</div>
+		<div class="t">
+		<div class="v" id="v4" onclick="putsymbol('v4', 3)"></div>
+		<div class="v" id="v5" onclick="putsymbol('v5', 4)"></div>
+		<div class="v" id="v6" onclick="putsymbol('v6', 5)"></div>
+		</div>
+		<div class="t">
+		<div class="v" id="v7" onclick="putsymbol('v7', 6)"></div>
+		<div class="v" id="v8" onclick="putsymbol('v8', 7)"></div>
+		<div class="v" id="v9" onclick="putsymbol('v9', 8)"></div>
+		</div>
+
+	</div>
+			<div class="tablica">
+			<h1 class="tablicah">turn of</h1>
+			<div class="playerdiv">
+				<h1 class="playerh" id="playerh">1st</h1>
+			</div>
+			<h1 class="tablicah">Player</h1>
+			<button class="newgame" onclick="resetall()">New Game</button>
+		</div>
+			<script type="text/javascript" src="js/script.js" defer></script>
+</body>
+</html>

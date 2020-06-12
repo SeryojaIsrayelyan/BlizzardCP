@@ -1,0 +1,141 @@
+@import url(../font/font.css);
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 10px;
+
+}
+.arajinmas{
+    background-color: #eff0f2;
+}
+.header a i{
+    color: black;
+}
+.shopnofirstpart h3{
+    font-family: 'Montserrat-Bold';
+    font-size: 45px;
+    color: rgb(80, 80, 80);
+    line-height: 1.8;
+    text-align: center;
+
+}
+.margintop50px{
+    margin-top : 50px;
+}
+.shopnofirstpart mark {
+     color: rgb(80, 80, 80);
+}
+.contactus{
+    background-color: #eff0f2;
+    border-color: #6b6b6b;
+    border: 1px solid;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*text-align : center;*/
+    margin: 100px  auto;
+    width: 200px;
+    height: 50px;
+}
+.shopnofirstpart{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.shopnofirstpart mark{
+    background-color: #b2f2ee;
+}
+.erkrordmas{
+    background-color: #f8fafa;
+    padding-bottom: 100px;
+}
+
+.errordmas{
+    background-color: #f8fafa;
+    margin-top: 120px;
+    padding-bottom: 100px;
+}
+.about{
+    padding: 130px 0;
+}
+.about h3{
+    font-size: 38px;
+    font-family: 'Montserrat-Bold';
+    color: rgba(0, 0, 0, 0.902);
+    text-align: center;
+}
+.about p{
+    font-size: 18px;
+
+    color: rgba(0, 0, 0, 0.62);
+    line-height: 1.7;
+    text-align: center;
+
+}
+
+.col-sm-12{
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    flex-direction: row-reverse;
+}
+.logosfirstpart{
+    margin-top: 80px;
+}
+.logossecondpart{
+    padding-bottom: 80px;
+}
+
+.footerdiv{
+    margin-top : 100px;
+}
+.footerdiv h5 {
+    font-family: 'Montserrat-Bold';
+    color : rgb(211,212,213);
+}
+.footerdiv p{
+    margin-top : 20px;
+    color : rgb(124,127,129);
+}
+
+.sportmaster{
+    margin-top : 13px;
+}
+.swan{
+    margin-top : 10px;
+}
+.swanser{
+    margin-top : 22px;
+}
+.bg{
+
+  background-image: url("../image/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height : 600px;
+}
+
+.relativediv{
+    background-image : url("../image/AlRayhanbg.png");
+    padding : 90px;
+    background-repeat: no-repeat;
+}
+
+
+.footer{
+   background-color : rgb(38,43,46); 
+
+}
+
+
+
