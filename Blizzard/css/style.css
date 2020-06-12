@@ -1,0 +1,259 @@
+*{
+	margin : 0;
+	padding : 0;
+}
+header{
+	width : 100%;
+	height : 50px;
+	background-color : black;
+	display : flex;
+	position : fixed;
+	z-index : 100;
+}
+
+.headermain{
+display : flex;
+}
+.Blizzardlogo{
+	width : 90px;
+	height : 30px;
+	margin-top : 10px;
+	margin-left : 200px;
+}
+.list{
+	margin-left : 20px;
+	color : gray;
+	text-decoration : none;
+	font-size : 20px;
+	margin-top : 14px;
+}
+.list:hover{
+	color : white;
+}
+
+.login{
+	font-size : 15px;
+	text-decoration : none;
+	color : lightgray;
+	margin-top : 15px;
+	margin-left : 40px;
+}
+
+.firstlogin { 
+margin-left : 300px ;
+ }
+
+.login:hover{
+	color : white;
+}
+
+footer{
+	width : 100%;
+	height : 407px;
+	background-image: url(../images/footer.jpg);
+	background-repeat: no-repeat;
+ 	background-size: 100% auto;
+ 	text-align : center;
+
+}
+
+.mainimages{
+	width: 100%;
+	height : 550px;
+	background-image: linear-gradient(to right, #2020c0, #1e39c8, #264ecf, #3460d3, #4672d6, #4672d6, #4672d6, #4672d6, #3460d3, #264ecf, #1e39c8, #2020c0);
+}
+
+.games{
+	width : 100%;
+	height : 524px;
+	background-color : blue;
+	background-image: url(../images/background2.jpg);
+	background-size : auto 524px;
+}
+
+.statyi{
+	width : 100%;
+	height : 701px;
+	background-image: url(../images/background2.jpg);
+	background-size : auto 701px;
+}
+
+.advertisment{
+	width : 100%;
+	height : 429px;
+	background-image: url(../images/advertisement.jpg);
+	background-size : auto 429px;
+
+}
+
+
+.hearthstone , .overwatch , .cod{
+	width : 30%;
+	position: absolute;
+}
+
+.hearthstone{
+	z-index : 3;
+	top : 150px;
+	left : 600px;
+}
+.overwatch{
+	z-index : 2;
+	top : 200px;
+	left : 870px;
+}
+.cod{
+	z-index : 1;
+	top : 200px;
+	left : 360px;
+}
+
+.gamestitle{
+	display : flex;
+}
+.gamestitle h1{
+color : white;
+margin : 0;
+padding : 0;
+}
+.gamestitle a {
+	margin-left : 100px;
+	color: lightblue;
+	margin : 10px 30px;
+	padding : 0;
+	text-decoration: none;
+}
+.gamesmain h4{
+	color : grey;
+	margin : 20px 0;
+}
+.gamesmain hr{
+	color : grey;
+	margin-top : 30px;
+	width : 1180px;
+}
+.gamesmain{
+	width : 1039px;
+	height : 300px;
+	margin : 0 230px;
+	padding-top : 100px;
+}
+.games a {
+	color : lightblue;
+	text-decoration : none;
+}
+.games p {
+	color : white;
+}
+
+.gamesimg{
+	height : 160px;
+}
+.gamestext{
+	margin-top : 70px;
+	text-align : center;
+	border : 1px solid gray;
+	height : 52px;
+}
+.gamestext p{
+	margin-top : 15px;
+}
+
+.statyaneritext{
+	display : flex;
+}
+.statyaneritext h1{
+color : white;
+margin : 0;
+padding : 0;
+}
+.statyaneritext a {
+	margin-left : 100px;
+	color: lightblue;
+	margin : 15px 30px;
+	padding : 0;
+	text-decoration: none;
+}
+
+.statyaner{
+	width : 1200px;
+	height : 550px;
+	margin : 0 auto;
+	padding-top : 100px;
+}
+
+.bloker{
+	margin-top : 30px;
+	width : 1200px;
+	height : 450px;
+	display : flex;
+}
+
+.statyablock{
+	width : 350px;
+	height : 400px;
+	border : 1px solid lightblue;
+}
+
+.secondblock{
+	margin-left : 20px;
+}
+
+.blockimg{
+	widht : 350px;
+	height : 200px;
+	margin-bottom : 10px;
+}
+
+.bloker p{
+	color : gray;
+	margin-left : 10px;
+}
+.bloker h3{
+	color : white;
+	font-size : 17px;
+	margin-left : 10px;
+}
+
+.advertisment h1{
+	color : white;
+}
+
+.advertisment p{
+	color : gray;
+	margin-top : 15px;
+	font-size : 20px;
+}
+.advertisment button{
+	color : white;
+	background-color : blue;
+	width : 130px;
+	height : 35px;
+	border : 2px solid lightblue;
+	margin-top : 30px;
+}
+
+.advertismenttext{
+	width : 400px;
+	height : 200px;
+	margin : 0 40px;
+	padding : 100px;
+}
+
+.statyi hr{
+	width : 1095px;
+}
+
+footer p{
+	color : gray;
+	padding-top : 200px;
+}
+.biga { 
+font-size : 15px;
+color : white;
+}
+footer a{
+	color : white;
+	text-decoration: none;
+}
+
