@@ -1,0 +1,115 @@
+body{
+	/*background-color: rgb(110,110,110);*/
+	background: url('../images/bg.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#main{
+	width:1000px;
+	height:1080px;
+margin: 0 auto;
+	background-image:url('../images/slotsfinal.png');
+	z-index:1000;
+}
+.ruchka{
+	width:77px;
+	height:337px;
+	position: absolute;
+	left: 1109px;
+	top: 200px;
+	background-image:url('../images/ruchkafinal.png');
+	z-index: 100;
+}
+
+.sq{
+	width:124px;
+	height:64px;
+	background-color:black;
+	position: absolute;
+	transition-property: top;
+	border-radius:6px;
+	background-position: center;
+	z-index:-1;
+}
+.sq0{
+top:201px;
+background:url('../images/money1.png');
+
+}
+.sq1{
+top:265px;
+background:url('../images/money2.png');
+}
+
+.sq2{
+top:329px;
+background:url('../images/money3.png');
+}
+.sq3{
+top:393px;
+background:url('../images/money4.png');
+}
+.sq4{
+top:457px;
+background:url('../images/money5.png');
+}
+
+.sector1{
+left:591px;
+}
+.sector2{
+left:770px;
+}
+.sector3{
+left:949px;
+}
+.stavkaplus,.stavkaminus,.startbutton{
+	width:80px;
+	height:38px;
+	position: absolute;
+	top:577px;
+	text-align: center;
+	font-size: 20px;
+	color:blue;
+}
+.cheatmoney{
+	width :100px;
+	height:90px;
+	position: absolute;
+	top: 124px;
+	left:780px;
+}
+.stavkaplus{
+	left:609px;
+}
+.stavkaminus{
+	left:726px;
+}
+.startbutton{
+	left:974px;
+}
+.money{
+	width:200px;
+	height:300px;
+	position: absolute;
+	top:10%;
+	left:85%;
+font-size:30px;
+color: red;
+}
+
+.stavkap,.moneyp{
+	color:blue;
+	font-size:28px;
+
+}
+.stavkap{
+	position: absolute;
+	top:565px;
+	left:825px;
+}
+.moneyp{
+	position: absolute;
+	top:618px;
+	left:775px;
+}

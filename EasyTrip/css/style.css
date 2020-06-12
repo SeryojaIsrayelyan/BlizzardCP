@@ -1,0 +1,309 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+}
+
+.mainheader{
+	width: 100%;
+	height: 80px;
+	background-color: lightcoral;
+	display: flex;
+}
+
+
+.linktohome{
+	text-decoration: none;
+	color: white;
+	font-size: 43px;
+	margin-left : 70px;
+	margin-top : 10px;
+}
+
+
+.telephone{ 
+	text-decoration : none;
+	color: rgba(255,255,255,.5);
+	font-size: 18px;
+	margin-left: 1000px;
+	margin-top: 30px;
+}
+
+
+
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	line-height: 50px;
+}
+
+.menu {
+	display: flex;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu li {
+	font-size: 16px;
+	color: white;
+	list-style: none;
+	position: relative;
+	margin: auto;
+
+}
+
+.submenu{
+     width: 150px;
+     height: auto;
+     background-color: black;
+     position: absolute;
+     text-align: center;
+     display: none;
+     color: white;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+}
+.menu li:hover .submenu{
+     display: block;
+}
+.menu li a:hover{
+	color: gray;
+}
+
+.submenu li{
+	font-size: 16px;
+	color: white;
+	list-style: none;
+	position: relative;
+}
+.submenu li:hover{
+    color: white;
+    background-color: gray;
+}
+
+.submenu li a:hover{
+    color: white;
+    background-color: gray;
+}
+
+main{
+	background-color: rgb(238, 241, 240);
+	width: 100%;
+	height:1000px;
+}
+
+.maintext{
+	font-size: 40px;
+	color: rgb(158, 30, 79);
+	text-align: center;
+	padding-top:180px;
+	margin-bottom: 30px;
+}
+
+.mainnav{
+	display:flex;
+}
+
+.leftitems{
+	display: block;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+.image1{
+	display: flex;
+}
+
+.image1 img{
+	width: 80px;
+	height: 80px;
+}
+.image1 div{
+	text-align : center;
+}
+.image1 a{
+	text-decoration: none;
+	color: #000;
+	line-height: 80px;
+	font-size: 18px;
+	margin: 20px 20px;
+
+}
+
+.image1::after{
+	content: "";
+	position: absolute;
+	width: 300px;
+	height: 1.5px;
+	background-color: lightgray;
+	top: 358px;
+	left:100px;
+}
+
+
+.image2{
+	display: flex;
+}
+
+.image2 div{
+		text-align: center;
+}
+
+.image2 img{
+	width: 80px;
+	height: 80px;
+}
+
+.image2 a{
+	text-decoration: none;
+	color : black;
+	line-height: 80px;
+	font-size: 18px;
+	margin: 20px 20px;
+}
+
+.image2::after{
+	content: "";
+	position: absolute;
+	width: 300px;
+	height: 2px;
+	background-color: lightgray;
+	top: 444px;
+	left:100px;
+}
+
+.image3{
+	display: flex;
+}
+
+.image3 img{
+		width: 80px;
+	height: 80px;
+}
+
+.image3 div{
+	text-align: center;
+}
+
+.image3 a{
+	text-decoration: none;
+	color : black;
+	line-height: 80px;
+	font-size: 18px;
+	margin: 20px 20px;
+}
+
+.image3::after{
+	content: "";
+	position: absolute;
+	width: 300px;
+	height: 2px;
+	background-color: lightgray;
+	top: 528px;
+	left:100px;
+}
+
+.image4{
+	display: flex;
+	margin-top : 10px;
+}
+
+.image4 img{
+	width: 80px;
+	height: 80px;
+}
+
+.image4 div{
+	text-align: center;
+}
+
+.image4 a{
+	text-decoration: none;
+	color : black;
+	line-height: 80px;
+	font-size: 18px;
+	margin: 20px 20px;
+}
+
+.image4::after{
+	content: "";
+	position: absolute;
+	width: 300px;
+	height: 2px;
+	background-color: lightgray;
+	top: 615px;
+	left:100px;
+}
+
+
+
+.image5{
+	border : 1px solid lightgray;
+	padding : 13px;
+	position: relative;
+	left: 190px;
+}
+
+.image6{
+	position: absolute;
+	z-index: 9;
+	left: 1060px;
+	top: 219px;
+}
+
+.img5{
+	width: 700px;
+	height : 450px;
+
+}
+
+.img6{
+	height: 500px;
+	border-radius: 35px;
+}
+
+.img2{
+	width: 200px;
+	height: 120px;
+}
+
+
+.round {
+  width: 40px; 
+  height: 80px;
+  border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+  background-color: white;
+  position : absolute;
+  left : 13px;
+  top : 220px;
+}
+
+.triangle-left {
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent; 
+  border-right: 15px solid gray; 
+  position : absolute;
+  left : 17px;
+  top : 245px;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body::-webkit-scrollbar-thumb {
+  background: pink; 
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: red; 
+}
